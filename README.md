@@ -35,7 +35,30 @@ This beginner-friendly full-stack project supports task creation, editing, delet
 
 ```
 
-<pre><code> 📁 task-manager-app/ ├── public/ # Frontend files │ ├── index.html # UI layout │ ├── style.css # Styling (with dark mode) │ └── script.js # Frontend logic │ ├── src/ # Backend source code │ ├── config/ # DB connection │ │ └── db.ts │ ├── controllers/ # Route logic │ │ └── task.controller.ts │ ├── models/ # DB schema + queries │ │ └── task.model.ts │ ├── routes/ # Express routers │ │ └── task.router.ts │ └── server.ts # Server entry point │ ├── .env # Environment variables ├── .gitignore # Ignored files ├── package.json ├── tsconfig.json ├── pnpm-lock.yaml └── README.md # You're reading it! </code></pre>
+📁 task-manager-app/
+├── 📂 public/                 — Frontend (HTML, CSS, JS)
+│   ├── index.html             — UI layout
+│   ├── style.css              — Styling with dark mode
+│   └── script.js              — Frontend JS logic
+│
+├── 📂 src/                    — Backend (Node + TypeScript)
+│   ├── 📂 config/             — PostgreSQL DB config
+│   │   └── db.ts
+│   ├── 📂 controllers/        — Route logic
+│   │   └── task.controller.ts
+│   ├── 📂 models/             — DB models & queries
+│   │   └── task.model.ts
+│   ├── 📂 routes/             — Express route definitions
+│   │   └── task.router.ts
+│   └── server.ts              — Server entry point
+│
+├── .env                      — Environment variables
+├── .gitignore                — Ignored files
+├── package.json              — Project metadata and scripts
+├── tsconfig.json             — TypeScript config
+├── pnpm-lock.yaml            — pnpm lock file
+└── README.md                 — Project documentation
+
 
 ````
 
