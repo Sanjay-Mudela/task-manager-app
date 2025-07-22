@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+
+# Environment variables
+.env
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
