@@ -33,8 +33,6 @@ This beginner-friendly full-stack project supports task creation, editing, delet
 
 ## 📂 Folder Structure
 
-```
-
 📁 task-manager-app/
 ├── 📂 public/                 — Frontend (HTML, CSS, JS)
 │   ├── index.html             — UI layout
