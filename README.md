@@ -58,8 +58,6 @@ This beginner-friendly full-stack project supports task creation, editing, delet
 └── README.md                 — Project documentation
 
 
-````
-
 ---
 
 ## 📦 Setup Instructions
