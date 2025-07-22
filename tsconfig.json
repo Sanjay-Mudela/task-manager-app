@@ -1,0 +1,13 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "strict": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "target": "esnext",
+    "skipLibCheck": true,
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}

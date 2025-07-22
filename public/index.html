@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>📝 Task Manager</h1>
+      <button id="toggle-theme">🌙 Dark Mode</button>
+    </header>
+
+    <form id="task-form">
+      <input type="text" id="task-title" placeholder="Task Title" required />
+      <textarea id="task-desc" placeholder="Task Description"></textarea>
+      <button type="submit">Add Task</button>
+    </form>
+
+    <ul id="task-list" class="task-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
