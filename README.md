@@ -35,30 +35,7 @@ This beginner-friendly full-stack project supports task creation, editing, delet
 
 ```
 
-task-manager-app/
-│
-├── public/                     # Frontend files
-│   ├── index.html              # UI layout
-│   ├── style.css               # Styling (with dark mode)
-│   └── script.js               # Frontend logic
-│
-├── src/                        # Backend source code
-│   ├── config/                 # DB connection
-│   │   └── db.ts
-│   ├── controllers/            # Route logic
-│   │   └── task.controller.ts
-│   ├── models/                 # DB schema + queries
-│   │   └── task.model.ts
-│   ├── routes/                 # Express routers
-│   │   └── task.router.ts
-│   └── server.ts               # Server entry point
-│
-├── .env                        # Environment variables
-├── .gitignore                  # Ignored files
-├── package.json
-├── tsconfig.json
-├── pnpm-lock.yaml
-└── README.md                   # You're reading it!
+<pre><code> 📁 task-manager-app/ ├── public/ # Frontend files │ ├── index.html # UI layout │ ├── style.css # Styling (with dark mode) │ └── script.js # Frontend logic │ ├── src/ # Backend source code │ ├── config/ # DB connection │ │ └── db.ts │ ├── controllers/ # Route logic │ │ └── task.controller.ts │ ├── models/ # DB schema + queries │ │ └── task.model.ts │ ├── routes/ # Express routers │ │ └── task.router.ts │ └── server.ts # Server entry point │ ├── .env # Environment variables ├── .gitignore # Ignored files ├── package.json ├── tsconfig.json ├── pnpm-lock.yaml └── README.md # You're reading it! </code></pre>
 
 ````
 
