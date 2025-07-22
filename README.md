@@ -65,7 +65,7 @@ This beginner-friendly full-stack project supports task creation, editing, delet
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/SanjayMudela/task-manager-app.git
+git clone https://github.com/Sanjay-Mudela/task-manager-app.git
 cd task-manager-app
 ````
 
@@ -114,7 +114,6 @@ This project is licensed under the [MIT License](https://choosealicense.com/lice
 ## 👨‍💻 Author
 
 **Sanjay Mudela**
-GitHub: [@SanjayMudela](https://github.com/SanjayMudela)
+GitHub: [@SanjayMudela](https://github.com/Sanjay-Mudela)
 
 ````
-
